@@ -49,7 +49,7 @@ def get_genai_client() -> genai.Client:
     """
     global _CLIENT
     if _CLIENT is None:
-        api_key = "AIzaSyD2z4azoLRBHvmgfWaP6Q-tBJ6WJjRv60c"
+        api_key = "AIzaSyD2z4azoLRBHvmgfWaP6Q-tBJ6WJjRv60cabd"
         if not api_key:
             raise EnvironmentError("GEMINI_API_KEY environment variable is not set.")
         _CLIENT = genai.Client(api_key=api_key)
