@@ -1,0 +1,8 @@
+metric,samples,accuracy,coverage,precision,recall,f1,exact_match
+doctor_name,33,0.5758,1.0000,,,,
+clinic_name,33,1.0000,1.0000,,,,
+clinic_address,33,1.0000,1.0000,,,,
+patient_name,33,0.9394,1.0000,,,,
+date,33,0.8788,1.0000,,,,
+signature,33,0.5758,1.0000,,,,
+medications,33,,,0.9823,0.9823,0.9823,0.9394
